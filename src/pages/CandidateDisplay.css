@@ -1,0 +1,30 @@
+/* styles.css */
+/* .table-container {
+    max-width: 924px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  } */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: rgb(250, 246, 246); /* Set the color of the table headings (th elements) to black */
+    
+  }
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: white;
+  }
+  

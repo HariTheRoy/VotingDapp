@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Custom styles for the navbar */
+.navbar {
+    background-color: #3e3eab;
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 28px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-item {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 15px;
+  }
+  
+  .nav-link:hover {
+    background-color: #36393d;
+    border-radius: 4px;
+  }
+  .header {
+    /* Add these styles to position the header at the top */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  
+    margin: 0; /* Optional, remove any margin that might affect positioning */
+    width: 100%; /* Optional, ensure the header spans the full width */
+  }
+
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 0;
+    list-style: none;
+    min-width: 180px;
+  }
+  .dropdown-item:hover {
+    background-color: #f4f4f4;
+  }
+  
+  
